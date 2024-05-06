@@ -1,2 +1,19 @@
 # invoiceapp_frontend_vue
-The frontend code for an invoice app using Vue. This connects to backend APIs which were earlier built in Django.
+
+## Project setup
+```
+npm install
+```
+
+### Compiles and hot-reloads for development
+```
+npm run serve
+```
+
+### Compiles and minifies for production
+```
+npm run build
+```
+
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).
