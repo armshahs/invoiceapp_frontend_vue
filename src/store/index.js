@@ -11,7 +11,7 @@ export default createStore({
   getters: {
   },
   mutations: {
-    insitializeStore(state) {
+    initializeStore(state) {
       if (localStorage.getItem('token')){
         state.token = localStorage.getItem('token')
         state.isAuthenticated = true
@@ -24,7 +24,7 @@ export default createStore({
       state.token = token
       state.isAuthenticated = true
     },
-    removeToken(state, token) {
+    removeToken(state) {
       state.token = ''
       state.isAuthenticated = false
     }
