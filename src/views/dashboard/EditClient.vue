@@ -127,7 +127,7 @@ export default {
                         position: 'bottom-right',
                     })
                     
-                    this.$router.push('/dashboard/clients')
+                    this.$router.push(`/dashboard/clients/${clientID}`)
                 })
                 .catch(error => {
                     console.log(JSON.stringify(error))

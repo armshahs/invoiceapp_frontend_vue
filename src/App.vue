@@ -9,8 +9,10 @@
         <div class="navbar-end">
           <template v-if="$store.state.isAuthenticated">
 
-            <router-link to="/dashboard" class="navbar-item">Dashboard</router-link>
+            <!-- <router-link to="/dashboard" class="navbar-item">Dashboard</router-link> -->
             <router-link to="/dashboard/clients" class="navbar-item">Clients</router-link>
+            <router-link to="/dashboard/invoices" class="navbar-item">Invoices</router-link>
+            <router-link to="/dashboard/invoices/add" class="navbar-item">Add Invoice</router-link>
 
             <div class="navbar-item">
               <div class="buttons">

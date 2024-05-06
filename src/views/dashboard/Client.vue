@@ -12,7 +12,11 @@
             <div class="column is-12">
                 <h1 class="title has-text-success">{{ client.name }}</h1>
 
-                <router-link :to="{ name: 'EditClient', params: { id: client.id }}" class="button is-light mt-4">Edit</router-link>
+                <div class="buttons">
+                    <router-link :to="{ name: 'EditClient', params: { id: client.id }}" class="button is-light mt-4">Edit</router-link>
+                    <router-link to="/dashboard/invoices/add" class="button is-light mt-4">Add Invoice</router-link>
+                
+                </div>
             </div>
 
             <div class="column is-12">
@@ -49,7 +53,7 @@
                                 <td>{{ invoice.gross_amount }}</td>
                                 <td>{{ invoice.get_due_date_formatted }}</td>
                                 <td>
-                                    <!-- <router-link :to="{ name: 'Invoice', params: { id: invoice.id } }">Details</router-link> -->
+                                    <router-link :to="{ name: 'Invoice', params: { id: invoice.id } }">Details</router-link>
                                 </td>
                             </tr>
                         </tbody>
@@ -80,7 +84,7 @@
                                 <td>{{ invoice.gross_amount }}</td>
                                 <td>{{ invoice.get_due_date_formatted }}</td>
                                 <td>
-                                    <!-- <router-link :to="{ name: 'Invoice', params: { id: invoice.id } }">Details</router-link> -->
+                                    <router-link :to="{ name: 'Invoice', params: { id: invoice.id } }">Details</router-link>
                                 </td>
                             </tr>
                         </tbody>
