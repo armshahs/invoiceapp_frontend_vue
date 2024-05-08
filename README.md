@@ -1,5 +1,10 @@
 # invoiceapp_frontend_vue
 
+Links:
+
+Backend code - https://github.com/armshahs/invoicing_app_django
+Product demo - https://www.youtube.com/watch?v=XpkBB3E0O5I
+
 ## Project setup
 ```
 npm install
