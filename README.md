@@ -4,8 +4,7 @@
 
 
 # InvoiceApp Frontend using Vue.js
-
-![InvoiceApp Frontend](https://via.placeholder.com/800x400)
+![image](https://github.com/armshahs/invoiceapp_frontend_vue/assets/57282258/1b6a9fa3-12d6-4c17-be81-d63c4e5fd301)
 
 ## Overview
 
